@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Alunos</h1>
+        <form id="formAluno">
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" required maxlength="6" pattern="\d{6}">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <a href="index.html">Voltar</a>
+    </div>
+</body>
+</html>
